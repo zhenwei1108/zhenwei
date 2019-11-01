@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ca-console:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74efa6ae-057e-4d73-9e88-b7b717913d3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/caengine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/cn/org/bjca/engine/TestCreateCert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/lib/swsds.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_4.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_4.pri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_4.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_5.pri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_5.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_6.pri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/RSA_6.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/SM2_1.pri" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/SM2_1.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/rsa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/caengine/src/main/java/soft/sm2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zhenwei/all/config/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/zhenwei/all/config/config/test/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/META-INF/app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/apollo-env.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/typhon-context.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/test/java/com/zhenwei/all/config/config/ConfigApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance/src/main/java/com/zhenwei/finance/test/TestHsmAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance/src/main/java/com/zhenwei/finance/test/mine/TestJCE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance/src/main/resources/config/swconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/HttpApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/conf/HttpConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/main/resources/demo.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/src/test/java/com/zhenwei/demo/http/HttpApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/fmserver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/lib/FishermanJCE-2.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/lib/JMJ_API-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/lib/JMJ_JNI-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/lib/soft-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/log4j-1.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/ComFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMCert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMKeyStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMP10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMP12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMP7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMRsa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMSM1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMSM2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMSM3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/FMSYS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/JCEDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/SernoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcedemo-2.0/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmeter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmeter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmeter/src/main/java/cn/org/bjca/genKey/GenRsa1024KeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmeter/src/main/java/cn/org/bjca/genKey/GenRsa2048KeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jmeter/src/main/java/cn/org/bjca/genKey/GenSM2KeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/com/zhenwei/kafka/mq/MqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/src/test/java/com/zhenwei/kafka/mq/MqApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/java/com/zhenwei/demo/keypool/KeyPoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/java/com/zhenwei/demo/keypool/service/KeyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/java/com/zhenwei/demo/keypool/util/EncDecUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/java/com/zhenwei/demo/keypool/util/KeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/main/resources/logback-spring-boot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/key-pool/src/test/java/com/zhenwei/demo/keypool/KeyPoolApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/MyWsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/MsgSig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/ParseXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/RootEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/XMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/config/WebServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/controller/BaseConrtoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/server/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/server/service/impl/SayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-ws/src/test/java/com/zhenwei/demo/myws/MyWsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/GbaseJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/Interesting/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/base64/EncodeDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/collections/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/date/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/encdec/RsaEncDec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/integer/TestBigInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/json/CaVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/json/ParseObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/json/SecretKeyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/lock/ReetrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/queue/ArrayBlockeQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/reference/ReBuildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/spring/ResourceLoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/string/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/thread/ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/vo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/lib/ifxjdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paly-test/src/main/resources/Resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/src/main/java/com/zhenwei/test/pki/demo/PkiDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/src/main/java/com/zhenwei/test/pki/demo/pubkey/BuildPublicKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pki-demo/src/test/java/com/zhenwei/test/pki/demo/PkiDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/Read Me" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/src/main/java/CreateKeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/src/main/java/ExportPubKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/src/main/java/SignData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdtjce/src/main/java/TestJni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestGenRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestRSAEncDecFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestRSAGenKeyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestRSASigVerFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestSM2EncDecFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestSM2GenKeyFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestSM2SigVerFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/TestSymmetryEncDecFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/util/Debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/util/InUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/util/PKCS1Padding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/util/PrintUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/lib/wst-common-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/lib/wst-crypto-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/lib/wst-hsm-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/lib/wst-jce-util-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/ZWRSATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/ZWSM2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/ZWSM4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/json/MyDateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/json/TestDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/myTEST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/com/zhenwei/test/zw/uuid/MyUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wstjce/src/main/resources/conf/hsminfo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/update/target/" />
+    <ignored path="$PROJECT_DIR$/paly-test/target/" />
+    <ignored path="$PROJECT_DIR$/jmeter/target/" />
+    <ignored path="$PROJECT_DIR$/key-pool/target/" />
+    <ignored path="$PROJECT_DIR$/caengine/target/" />
+    <ignored path="$PROJECT_DIR$/kafka/target/" />
+    <ignored path="$PROJECT_DIR$/pki-demo/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/ca-console/target/" />
+    <ignored path="$PROJECT_DIR$/swxajce/target/" />
+    <ignored path="$PROJECT_DIR$/my-ws/target/" />
+    <ignored path="$PROJECT_DIR$/finance/target/" />
+    <ignored path="$PROJECT_DIR$/sdtjce/target/" />
+    <ignored path="$PROJECT_DIR$/wstjce/target/" />
+    <ignored path="$PROJECT_DIR$/ldap/target/" />
+    <ignored path="$PROJECT_DIR$/http/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jcedemo-2.0/src/ComFun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caengine/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jcedemo-2.0/src/FMSM1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pki-demo/src/main/java/com/zhenwei/test/pki/demo/pubkey/BuildPublicKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1694">
+              <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ServletContextListener</find>
+      <find>SocketException</find>
+      <find>cert-app</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/paly-test/src/main/resources/Resource.properties" />
+        <option value="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/spring/ResourceLoder.java" />
+        <option value="$PROJECT_DIR$/ldap/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ldap/src/main/java/com/bjca/ldap/demo/ldap/test/TestController.java" />
+        <option value="$PROJECT_DIR$/update/src/main/java/com/zhenwei/test/test/update/test/TestController.java" />
+        <option value="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/controller/TtestController.java" />
+        <option value="$PROJECT_DIR$/http/pom.xml" />
+        <option value="$PROJECT_DIR$/paly-test/pom.xml" />
+        <option value="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/Main.java" />
+        <option value="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpClientFactory.java" />
+        <option value="$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/TestMain.java" />
+        <option value="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/conf/HttpConnector.java" />
+        <option value="$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/http/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Test.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectId" id="1PRVAlwt0s3cCLWmGHDj9ysTXF6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561632872467" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wstjce" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25098816" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA-SPACE\MyTest\jcedemo-2.0\lib" />
+      <recent name="E:\IDEA-SPACE\MyTest\caengine\src\main\java\lib" />
+      <recent name="E:\IDEA-SPACE\MyTest\key-pool\src" />
+      <recent name="E:\IDEA-SPACE\MyTest\wstjce\src\main\resources" />
+      <recent name="E:\IDEA-SPACE\MyTest\caengine\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.zhenwei.demo.myws" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.org.bjca.test" />
+      <recent name="cn.org.bjca.ca.console.support" />
+      <recent name="com.zhenwei.test.json" />
+      <recent name="cn.org.bjca.bmca.km" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA-SPACE\MyTest\wstjce" />
+      <recent name="E:\IDEA-SPACE\MyTest\swxajce" />
+      <recent name="E:\IDEA-SPACE\MyTest\sdtjce" />
+      <recent name="E:\IDEA-SPACE\MyTest\pki-demo" />
+      <recent name="E:\IDEA-SPACE\MyTest\paly-test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ResourceLoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhenwei.test.spring.ResourceLoder" />
+      <module name="paly-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhenwei.test.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.org.bjca.genKey.Test" />
+      <module name="swxajce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.org.bjca.genKey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhenwei.test.http.TestMain" />
+      <module name="paly-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhenwei.test.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSM2GenKeyFunc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.org.bjca.genKey.TestSM2GenKeyFunc" />
+      <module name="swxajce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.org.bjca.genKey.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhenwei.test.string.TestString" />
+      <module name="paly-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhenwei.test.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.all.config.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="http" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.demo.http.HttpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KeyPoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="key-pool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.demo.keypool.KeyPoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LdapApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ldap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bjca.ldap.demo.ldap.LdapApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.kafka.mq.MqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyWsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="my-ws" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.demo.myws.MyWsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PkiDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pki-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.test.pki.demo.PkiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PkiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pki-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.test.pkidemo.PkiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="update" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.test.test.update.UpdateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webservice (1) (com.zhenwei.ws)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhenwei.demo.webservice.WebserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.78" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="ca-console:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ca" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyTest" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49428" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="49429" />
+        <option name="visualVMId" value="559801208670660" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="49430" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ca-console:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestSM2GenKeyFunc" />
+      <item itemvalue="Application.TestString" />
+      <item itemvalue="Application.ResourceLoder" />
+      <item itemvalue="Application.TestMain" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.KeyPoolApplication" />
+      <item itemvalue="Spring Boot.MqApplication" />
+      <item itemvalue="Spring Boot.MyWsApplication" />
+      <item itemvalue="Spring Boot.WebserviceApplication" />
+      <item itemvalue="Spring Boot.PkiDemoApplication" />
+      <item itemvalue="Spring Boot.PkiDemoApplication (1)" />
+      <item itemvalue="Spring Boot.UpdateApplication" />
+      <item itemvalue="Spring Boot.LdapApplication" />
+      <item itemvalue="Spring Boot.HttpApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.78" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.ResourceLoder" />
+        <item itemvalue="Application.TestString" />
+        <item itemvalue="Application.TestSM2GenKeyFunc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC,SHOW_FIELDS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74efa6ae-057e-4d73-9e88-b7b717913d3d" name="Default Changelist" comment="" />
+      <created>1553160227724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553160227724</updated>
+      <workItem from="1553160230587" duration="5900000" />
+      <workItem from="1553216767896" duration="1934000" />
+      <workItem from="1553238946507" duration="3414000" />
+      <workItem from="1553481224119" duration="508000" />
+      <workItem from="1553482300514" duration="411000" />
+      <workItem from="1553483559683" duration="1693000" />
+      <workItem from="1553510993171" duration="835000" />
+      <workItem from="1553560291831" duration="5232000" />
+      <workItem from="1553648924992" duration="596000" />
+      <workItem from="1553671615878" duration="1589000" />
+      <workItem from="1553739171688" duration="546000" />
+      <workItem from="1553740184183" duration="375000" />
+      <workItem from="1553741979879" duration="816000" />
+      <workItem from="1553753260672" duration="1089000" />
+      <workItem from="1553762968696" duration="767000" />
+      <workItem from="1553771579847" duration="1213000" />
+      <workItem from="1553821626860" duration="9354000" />
+      <workItem from="1553845216131" duration="828000" />
+      <workItem from="1553849056764" duration="1408000" />
+      <workItem from="1553907892032" duration="7000" />
+      <workItem from="1553907953415" duration="46000" />
+      <workItem from="1553922693605" duration="229000" />
+      <workItem from="1553925837153" duration="179000" />
+      <workItem from="1554082641921" duration="682000" />
+      <workItem from="1554096527706" duration="1204000" />
+      <workItem from="1554167325123" duration="8816000" />
+      <workItem from="1554199441280" duration="235000" />
+      <workItem from="1555655437922" duration="4178000" />
+      <workItem from="1555927735420" duration="1442000" />
+      <workItem from="1555941357175" duration="340000" />
+      <workItem from="1555981453309" duration="1427000" />
+      <workItem from="1556192479358" duration="1573000" />
+      <workItem from="1556240098089" duration="3034000" />
+      <workItem from="1556511974055" duration="2379000" />
+      <workItem from="1556526237974" duration="1591000" />
+      <workItem from="1556585080158" duration="678000" />
+      <workItem from="1556593177852" duration="1231000" />
+      <workItem from="1557969084362" duration="1195000" />
+      <workItem from="1557971809022" duration="542000" />
+      <workItem from="1557973781633" duration="411000" />
+      <workItem from="1558408173846" duration="2349000" />
+      <workItem from="1558416231744" duration="4303000" />
+      <workItem from="1558498554893" duration="1604000" />
+      <workItem from="1558676358552" duration="14924000" />
+      <workItem from="1558922225753" duration="527000" />
+      <workItem from="1558924180280" duration="11653000" />
+      <workItem from="1559005557255" duration="6373000" />
+      <workItem from="1559092361793" duration="12678000" />
+      <workItem from="1559117994933" duration="2839000" />
+      <workItem from="1559276447070" duration="1862000" />
+      <workItem from="1559547593556" duration="3928000" />
+      <workItem from="1559643550169" duration="1042000" />
+      <workItem from="1559696589278" duration="1727000" />
+      <workItem from="1559713091545" duration="3223000" />
+      <workItem from="1559726665458" duration="604000" />
+      <workItem from="1560131629199" duration="880000" />
+      <workItem from="1560220268580" duration="397000" />
+      <workItem from="1560224278128" duration="699000" />
+      <workItem from="1560417650559" duration="977000" />
+      <workItem from="1560473698455" duration="7665000" />
+      <workItem from="1560844998040" duration="293000" />
+      <workItem from="1560845337436" duration="27000" />
+      <workItem from="1560906877690" duration="863000" />
+      <workItem from="1560997077011" duration="12509000" />
+      <workItem from="1561081590788" duration="4913000" />
+      <workItem from="1561095372719" duration="660000" />
+      <workItem from="1561110555858" duration="1059000" />
+      <workItem from="1561362218341" duration="271000" />
+      <workItem from="1561362497864" duration="4929000" />
+      <workItem from="1561424600443" duration="15463000" />
+      <workItem from="1561510502388" duration="19000" />
+      <workItem from="1561628919437" duration="1442000" />
+      <workItem from="1562049494678" duration="32000" />
+      <workItem from="1562050313264" duration="3315000" />
+      <workItem from="1562577769186" duration="4607000" />
+      <workItem from="1562585277745" duration="3943000" />
+      <workItem from="1562639909903" duration="815000" />
+      <workItem from="1562661792976" duration="3783000" />
+      <workItem from="1562674552403" duration="613000" />
+      <workItem from="1562675569734" duration="23000" />
+      <workItem from="1562741342205" duration="607000" />
+      <workItem from="1562756934086" duration="5231000" />
+      <workItem from="1562806818824" duration="6672000" />
+      <workItem from="1562916511759" duration="1651000" />
+      <workItem from="1562980687673" duration="601000" />
+      <workItem from="1562988960268" duration="7007000" />
+      <workItem from="1563331703757" duration="617000" />
+      <workItem from="1563349867380" duration="77000" />
+      <workItem from="1563514517340" duration="7242000" />
+      <workItem from="1563949019716" duration="272000" />
+      <workItem from="1564043717081" duration="150000" />
+      <workItem from="1564828548036" duration="973000" />
+      <workItem from="1564967355913" duration="640000" />
+      <workItem from="1565836761986" duration="9324000" />
+      <workItem from="1565855642061" duration="659000" />
+      <workItem from="1565864900743" duration="50000" />
+      <workItem from="1565866684423" duration="570000" />
+      <workItem from="1565868234701" duration="632000" />
+      <workItem from="1566895266592" duration="485000" />
+      <workItem from="1566956209334" duration="32000" />
+      <workItem from="1567045902703" duration="3011000" />
+      <workItem from="1567247657335" duration="3631000" />
+      <workItem from="1567324739252" duration="2200000" />
+      <workItem from="1567386744987" duration="201000" />
+      <workItem from="1567497537581" duration="4582000" />
+      <workItem from="1567670246922" duration="907000" />
+      <workItem from="1567756442773" duration="879000" />
+      <workItem from="1567758154541" duration="381000" />
+      <workItem from="1568084755349" duration="1720000" />
+      <workItem from="1568092485126" duration="4916000" />
+      <workItem from="1568186799135" duration="4982000" />
+      <workItem from="1568682814651" duration="714000" />
+      <workItem from="1568705141053" duration="723000" />
+      <workItem from="1568711905295" duration="1013000" />
+      <workItem from="1568714390217" duration="1250000" />
+      <workItem from="1568769137894" duration="65000" />
+      <workItem from="1568785831617" duration="3290000" />
+      <workItem from="1568855399913" duration="3641000" />
+      <workItem from="1569201665388" duration="6824000" />
+      <workItem from="1569288883108" duration="4221000" />
+      <workItem from="1569317512790" duration="695000" />
+      <workItem from="1569373246123" duration="1790000" />
+      <workItem from="1569725531853" duration="1100000" />
+      <workItem from="1569809528735" duration="696000" />
+      <workItem from="1569810382140" duration="427000" />
+      <workItem from="1569810907697" duration="1166000" />
+      <workItem from="1570669189599" duration="99000" />
+      <workItem from="1570669426599" duration="633000" />
+      <workItem from="1570670804788" duration="9019000" />
+      <workItem from="1570688202716" duration="105000" />
+      <workItem from="1570688349839" duration="11922000" />
+      <workItem from="1570756178847" duration="3955000" />
+      <workItem from="1570773200765" duration="684000" />
+      <workItem from="1570842261240" duration="8924000" />
+      <workItem from="1571014820401" duration="33000" />
+      <workItem from="1571275306994" duration="77000" />
+      <workItem from="1571881074832" duration="739000" />
+      <workItem from="1572309615649" duration="4146000" />
+      <workItem from="1572487723098" duration="1019000" />
+      <workItem from="1572492817641" duration="10388000" />
+      <workItem from="1572586616068" duration="7519000" />
+      <workItem from="1572595996217" duration="3690000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27501000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18603411" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5273743" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.47486034" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info anchor="bottom" id="Messages" order="17" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
+      <window_info anchor="bottom" id="MyBatis Log" order="19" />
+      <window_info anchor="bottom" id="Tail" order="20" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="E:/Git-Space/Interview-Notebook" />
+      <path value="E:/Git-Space/advanced-java" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/GbaseJdbc.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0/ca-engine-1.0.0.jar!/org/ca/engine/sdk/api/CaService.class</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0/ca-engine-1.0.0.jar!/org/ca/engine/sdk/service/CaInfoService.class</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0/ca-engine-1.0.0.jar!/org/ca/engine/sdk/service/PropertiesLoader.class</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/wstjce/src/lib/wst-hsm-api-1.0.1.jar!/com/westone/pboc/util/PropertyUtils.class</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/wst-hsm-api/wst/1.0.0/wst-1.0.0.jar!/com/westone/pboc/mina/client/ShortClient.class</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fakepath/wst-hsm-api/1.0.0/wst-hsm-api-1.0.0.jar!/com/westone/pboc/util/PropertyUtils.class</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fakepath/swxa-finance-jce/1.0.0/swxa-finance-jce-1.0.0.jar!/com/sansec/sjj1212/EMClient.class</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/controller/BaseConrtoller.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/bjca/spki/com/pki-tools/3.0.1-SNAPSHOT/pki-tools-3.0.1-SNAPSHOT.jar!/cn/org/bjca/cloud/ca/pki/common/crypto/CryptoTokenManager.class</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/cn/bjca/footstone/typhon-api/0.0.1-SNAPSHOT/typhon-api-0.0.1-20190328.073035-1.jar!/cn/bjca/typhon/client/api/TyphonClient.class</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/authority/rolefilter/RolesAuthorizationFilter.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/web/controller/AdminController.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/web/controller/AdminController.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/web/controller/AdminController.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/authority/realm/JDBCRealm.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ca-console/src/main/java/cn/org/bjca/ca/console/impl/CAAdminServiceImpl.java</url>
+          <line>372</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/my-ws/src/main/java/com/zhenwei/demo/myws/client/parsexml/ParseXML.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/json/ParseObj.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/util/StringUtils.java</url>
+          <line>636</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/key-pool/src/main/java/com/zhenwei/demo/keypool/KeyPoolApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+          <folding>
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3058#3059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="658" selection-start-line="658" selection-end-line="658" />
+          <folding>
+            <element signature="e#20680#20688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#2112#2113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/spring/ResourceLoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/src/main/resources/Resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ldap/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/bjca/ldap/demo/ldap/test/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/ldap/src/main/java/com/bjca/ldap/demo/ldap/LdapApplication.java" />
+    <entry file="file://$PROJECT_DIR$/update/src/main/java/com/zhenwei/test/test/update/UpdateApplication.java" />
+    <entry file="file://$PROJECT_DIR$/update/src/main/java/com/zhenwei/test/test/update/test/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/ldap/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/controller/TtestController.java" />
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/zhenwei/all/config/config/test/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/org/bjca/spki/secx-common-base/1.0.0/secx-common-base-1.0.0.jar!/bjca/org/apache/log4j/spi/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bjca/spki/com/common-util/0.0.1-SNAPSHOT/common-util-0.0.1-SNAPSHOT.jar!/cn/org/bjca/bmca/common/util/http/base/HttpClientFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar!/org/apache/http/client/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.7/fastjson-1.2.7-sources.jar!/com/alibaba/fastjson/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="292" column="18" selection-start-line="292" selection-start-column="18" selection-end-line="292" selection-end-column="18" />
+          <folding>
+            <element signature="e#7164#7165#0" expanded="true" />
+            <element signature="e#7206#7207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar!/org/apache/http/entity/StringEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="143" column="11" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpClientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="149" column="25" selection-start-line="149" selection-start-column="25" selection-end-line="149" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/Beans.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.27/tomcat-embed-core-9.0.27-sources.jar!/org/apache/catalina/connector/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="e#2636#2637#0" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ca-console/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="11" selection-start-column="11" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/HttpApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/conf/HttpConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/src/main/java/com/zhenwei/demo/http/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="93" column="27" selection-start-line="93" selection-start-column="27" selection-end-line="93" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paly-test/src/main/java/com/zhenwei/test/http/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jcedemo-2.0/src/FMSM1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pki-demo/src/main/java/com/zhenwei/test/pki/demo/pubkey/BuildPublicKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swxajce/src/main/java/cn/org/bjca/genKey/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key-pool/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-ws/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caengine/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pki-demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jcedemo-2.0/src/ComFun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

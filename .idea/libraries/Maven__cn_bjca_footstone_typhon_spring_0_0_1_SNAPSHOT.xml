@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.bjca.footstone:typhon-spring:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/bjca/footstone/typhon-spring/0.0.1-SNAPSHOT/typhon-spring-0.0.1-20190328.073043-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/bjca/footstone/typhon-spring/0.0.1-SNAPSHOT/typhon-spring-0.0.1-20190328.073043-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/bjca/footstone/typhon-spring/0.0.1-SNAPSHOT/typhon-spring-0.0.1-20190328.073043-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

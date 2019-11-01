@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="true">
+	<!-- 定义log 文件的 home 目录 -->
+	<property
+			name="LOG_HOME"
+			value="../apilogs"></property>
+	<property name="LOG_HOME_BAK" value="../apilogs/bak"></property>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<!-- %.-1level 只显示信息级别的首字母,%-5level 左对齐显示信息级别全称 -->
+			<Pattern>%date{yyyy-MM-dd HH:mm:ss},%date{SSS} %p %thread %C %L-> %m%n</Pattern>
+		</encoder>
+	</appender>
+
+	<appender name="TRACE_FILE"
+			  class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<!--<encoding>UTF-8</encoding>-->
+		<file>${LOG_HOME}/trace.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+			<FileNamePattern>${LOG_HOME_BAK}/trace.%i.log</FileNamePattern>
+			<minIndex>1</minIndex>
+			<maxIndex>20</maxIndex>
+		</rollingPolicy>
+
+		<triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+			<maxFileSize>50MB</maxFileSize>
+		</triggeringPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符-->
+			<pattern>%date{yyyy-MM-dd HH:mm:ss},%date{SSS} %p %thread %C %L-> %m%n</pattern>
+		</encoder>
+		<!--<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>trace</level>
+			<onMatch>ACCEPT</onMatch>
+			<onMismatch>DENY</onMismatch>
+		</filter>-->
+
+	</appender>
+
+	<appender name="timeFile" class="ch.qos.logback.core.FileAppender">
+
+		<!-- 可以是相对路径，可以是绝对路径 -->
+		<file>${LOG_HOME}/timeout.log</file>
+		<append>true</append>
+		<encoder>
+			<pattern>[%date{yyyy-MM-dd HH:mm:ss}] [%-5level] [%logger:%line]--%mdc{client} %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="TRACE_FILE" />
+		<!--<appender-ref ref="DEBUG_FILE" />
+		<appender-ref ref="INFO_FILE" />
+		<appender-ref ref="WARN_FILE" />
+		<appender-ref ref="ERROR_FILE" />-->
+	</root>
+
+</configuration>

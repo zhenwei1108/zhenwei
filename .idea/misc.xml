@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ca-console" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jmeter/pom.xml" />
+        <option value="$PROJECT_DIR$/caengine/pom.xml" />
+        <option value="$PROJECT_DIR$/swxajce/pom.xml" />
+        <option value="$PROJECT_DIR$/paly-test/pom.xml" />
+        <option value="$PROJECT_DIR$/wstjce/pom.xml" />
+        <option value="$PROJECT_DIR$/finance/pom.xml" />
+        <option value="$PROJECT_DIR$/my-ws/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/key-pool/pom.xml" />
+        <option value="$PROJECT_DIR$/pki-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/sdtjce/pom.xml" />
+        <option value="$PROJECT_DIR$/http/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

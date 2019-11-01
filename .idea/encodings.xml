@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ca-console" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/http" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/key-pool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ldap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/my-ws" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pki-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/update" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

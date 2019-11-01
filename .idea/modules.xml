@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/Git-Space/JavaGuide/JavaGuide.iml" filepath="E:/Git-Space/JavaGuide/JavaGuide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyTest.iml" filepath="$PROJECT_DIR$/.idea/MyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caengine/caengine.iml" filepath="$PROJECT_DIR$/caengine/caengine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config/config.iml" filepath="$PROJECT_DIR$/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finance/finance.iml" filepath="$PROJECT_DIR$/finance/finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http/http.iml" filepath="$PROJECT_DIR$/http/http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jcedemo-2.0/jcedemo-2.0.iml" filepath="$PROJECT_DIR$/jcedemo-2.0/jcedemo-2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmeter/jmeter.iml" filepath="$PROJECT_DIR$/jmeter/jmeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/key-pool/key-pool.iml" filepath="$PROJECT_DIR$/key-pool/key-pool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-ws/my-ws.iml" filepath="$PROJECT_DIR$/my-ws/my-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paly-test/paly-test.iml" filepath="$PROJECT_DIR$/paly-test/paly-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pki-demo/pki-demo.iml" filepath="$PROJECT_DIR$/pki-demo/pki-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sdtjce/sdtjce.iml" filepath="$PROJECT_DIR$/sdtjce/sdtjce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swxajce/swxajce.iml" filepath="$PROJECT_DIR$/swxajce/swxajce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wstjce/wstjce.iml" filepath="$PROJECT_DIR$/wstjce/wstjce.iml" />
+    </modules>
+  </component>
+</project>

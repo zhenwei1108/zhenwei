@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: fakepath:ca-engine:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0-SNAPSHOT/ca-engine-1.0.0-20190326.095830-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0-SNAPSHOT/ca-engine-1.0.0-20190326.095830-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/fakepath/ca-engine/1.0.0-SNAPSHOT/ca-engine-1.0.0-20190326.095830-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

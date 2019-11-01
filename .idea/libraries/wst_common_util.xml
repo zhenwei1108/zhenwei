@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="wst-common-util">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/wstjce/src/lib/wst-common-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wstjce/src/lib/wst-jce-util-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wstjce/src/lib/wst-hsm-api-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/wstjce/src/lib/wst-crypto-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

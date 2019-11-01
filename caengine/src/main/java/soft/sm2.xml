@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ctml id="wwwww" name="wwwww" description="" createTime="2018-01-23 10:53:03">
+    <policyList>
+        <policy type="basePolicy" name="SubjectDNPolicy" subjectDN="CN=aa,OU=XXXX,O=O,L=2,ST=ST,C=CN,POSTALCODE=123690,E=xxxx" issuerDN=""/>
+        <policy type="basePolicy" name="CtmlAttributePolicy" certCtmlType="single"/>
+        <policy type="basePolicy" name="KeyPolicy" keyType="SM2" keyLength="256" keyGenPlace="local" signAlg="SM3WithSM2"/>
+        <policy type="basePolicy" name="ValidDatePolicy" defaultValidDate="200" maxValidDate="365"/>
+        <policy type="stdExtPolicy" name="KeyUsagePolicy" isCritical="false" keyUsageTag="136"/>
+        <policy type="stdExtPolicy" name="CRLDistPointPolicy" OID="0" isCritical="false"/>
+        <policy type="stdExtPolicy" name="BasicConstraintsPolicy" isCritical="false" whetherCA="false" pathLenConstraint="-1"/>
+        <policy type="stdExtPolicy" name="SubjectKeyIdentifierPolicy" OID="0" isCritical="false"/>
+        <policy type="stdExtPolicy" name="AuthorityKeyIdentifierPolicy" OID="0" isCritical="false"/>
+        <policy type="stdExtPolicy" name="ExtendedKeyUsagePolicy" isCritical="false">
+            <extKeyUsageList keyID="1.3.6.1.5.5.7.3.3"/>
+        </policy>
+    </policyList>
+</ctml>

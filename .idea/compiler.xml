@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="http" />
+        <module name="wstjce" />
+        <module name="webservice (1) (com.zhenwei.ws)" />
+        <module name="key-pool" />
+        <module name="caengine" />
+        <module name="paly-test" />
+        <module name="pki-demo" />
+        <module name="swxajce" />
+        <module name="config" />
+        <module name="my-ws" />
+        <module name="kafka" />
+        <module name="jmeter" />
+        <module name="sdtjce" />
+        <module name="finance" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="ca-console-server" target="1.8" />
+      <module name="caconsole" target="1.8" />
+      <module name="caengine" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="finance" target="1.8" />
+      <module name="http" target="1.8" />
+      <module name="jmeter" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="key-pool" target="1.8" />
+      <module name="ldap" target="1.8" />
+      <module name="my-ws" target="1.8" />
+      <module name="paly-test" target="1.8" />
+      <module name="pki-demo" target="1.8" />
+      <module name="sdtjce" target="1.8" />
+      <module name="swxajce" target="1.8" />
+      <module name="update" target="1.8" />
+      <module name="webservice" target="1.8" />
+      <module name="webservice (1) (com.zhenwei.ws)" target="1.8" />
+      <module name="wstjce" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config" options="-parameters" />
+      <module name="http" options="-parameters" />
+      <module name="kafka" options="-parameters" />
+      <module name="key-pool" options="-parameters" />
+      <module name="ldap" options="-parameters" />
+      <module name="my-ws" options="-parameters" />
+      <module name="pki-demo" options="-parameters" />
+      <module name="update" options="-parameters" />
+      <module name="webservice (1) (com.zhenwei.ws)" options="-parameters" />
+    </option>
+  </component>
+</project>

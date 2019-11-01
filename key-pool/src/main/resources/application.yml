@@ -1,0 +1,4 @@
+server:
+  port: 7890
+logging:
+  config: classpath:logback-spring-boot.xml

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ca-console-server:war">
+    <output-path>$PROJECT_DIR$/ca-console/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ca-console-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="caweb.war">
+      <element id="artifact" artifact-name="ca-console-server:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: TassHsm:TassHsmFrame:TassHsm:2.38.2631">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/TassHsm/TassHsmFrame/2.38.2631/TassHsmFrame-2.38.2631-TassHsm.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/TassHsm/TassHsmFrame/2.38.2631/TassHsmFrame-2.38.2631-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/TassHsm/TassHsmFrame/2.38.2631/TassHsmFrame-2.38.2631-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

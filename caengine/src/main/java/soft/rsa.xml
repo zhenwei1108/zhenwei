@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ctml id="userpolicy" name="userpolicy" description="TBOX证书模板,用于TBOX场景" createTime="2017-12-22 10:44:05">
+    <policyList>
+        <policy type="basePolicy" name="SubjectDNPolicy" subjectDN="CN=XXXX,OU=BMCA,O=BMCA,C=CN" issuerDN=""/>
+        <policy type="basePolicy" name="CtmlAttributePolicy" certCtmlType="single"/>
+        <policy type="basePolicy" name="KeyPolicy" keyType="RSA" keyLength="1024" keyGenPlace="local" signAlg="SHA1WithRSAEncryption"/>
+        <policy type="basePolicy" name="ValidDatePolicy" defaultValidDate="60" maxValidDate="1825"/>
+        <policy type="stdExtPolicy" name="KeyUsagePolicy" isCritical="false" keyUsageTag="136"/>
+        <policy type="stdExtPolicy" name="CRLDistPointPolicy" OID="0" isCritical="false"/>
+        <policy type="stdExtPolicy" name="BasicConstraintsPolicy" isCritical="false" whetherCA="false" pathLenConstraint="-1"/>
+        <policy type="stdExtPolicy" name="SubjectKeyIdentifierPolicy" OID="0" isCritical="false"/>
+        <policy type="stdExtPolicy" name="AuthorityKeyIdentifierPolicy" OID="0" isCritical="false"/>
+    </policyList>
+</ctml>

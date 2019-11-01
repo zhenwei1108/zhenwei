@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pki-tools-3.0.2-SNAPSHOT1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/caengine/src/main/java/lib/pki-tools-3.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

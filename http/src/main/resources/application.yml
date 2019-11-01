@@ -1,0 +1,8 @@
+server:
+  ssl:
+    key-store: C:/Users/admin/.keystore
+    enabled: true
+    key-store-password: 123123
+    key-store-type: JKS
+    key-alias: tomcat
+  port: 443

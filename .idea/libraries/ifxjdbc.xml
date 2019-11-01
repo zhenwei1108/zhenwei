@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ifxjdbc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/paly-test/src/main/lib/ifxjdbc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
