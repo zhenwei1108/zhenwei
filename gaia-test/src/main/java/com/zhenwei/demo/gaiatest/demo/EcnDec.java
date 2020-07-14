@@ -1,0 +1,92 @@
+package com.zhenwei.demo.gaiatest.demo;
+
+import cn.org.bjca.gaia.assemb.base.GaiaProvider;
+import cn.org.bjca.gaia.assemb.cert.BjcaCert;
+import cn.org.bjca.gaia.assemb.exception.PkiException;
+import cn.org.bjca.gaia.assemb.param.AlgPolicy;
+import cn.org.bjca.gaia.assemb.param.BjcaKey;
+import cn.org.bjca.gaia.assemb.param.BjcaKeyPair;
+import cn.org.bjca.gaia.assemb.util.CertificateUtil;
+import cn.org.bjca.gaia.util.encoders.Base64;
+import com.zhenwei.demo.gaiatest.utils.GaiaUtils;
+import org.junit.Test;
+
+public class EcnDec {
+
+  static String cert3a6b = "MIIFkTCCBHmgAwIBAgIKLDAAAAAAAAA6azANBgkqhkiG9w0BAQUFADBSMQswCQYDVQQGEwJDTjENMAsGA1UECgwEQkpDQTEYMBYGA1UECwwPUHVibGljIFRydXN0IENBMRowGAYDVQQDDBFQdWJsaWMgVHJ1c3QgQ0EtMTAeFw0xNDA0MjAxNjAwMDBaFw0xNjA0MjExNTU5NTlaMFMxCzAJBgNVBAYTAkNOMQ0wCwYDVQQKDARCSkNBMRIwEAYDVQQLDAnnoJTnqbbpg6gxITAfBgNVBAMMGE1TU1DmtYvor5XnlKjmiLco5rWL6K+VKTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3u+IMFDRaVQMS1zZNLNLfrludvhIqE2lEI0paqqX87QoDlbMxociZfCgpsZPz+VAkHwhQb8BpS49sCMvsqUkbXB0Yk0FduzNunrU2j5/5xkSU3uHFepdk08P50ybGJhDTDd24Wu5Sj/Vaw2le+MHpmMUNg9gwBCY5q7ZR2BmZN8CAwEAAaOCAuowggLmMB8GA1UdIwQYMBaAFKw77K8Mo1AO76+vtE9sO9vRV9KJMB0GA1UdDgQWBBThm8Go1z+1866EkkUTVdh6TiJp+DALBgNVHQ8EBAMCBsAwga0GA1UdHwSBpTCBojBsoGqgaKRmMGQxCzAJBgNVBAYTAkNOMQ0wCwYDVQQKDARCSkNBMRgwFgYDVQQLDA9QdWJsaWMgVHJ1c3QgQ0ExGjAYBgNVBAMMEVB1YmxpYyBUcnVzdCBDQS0xMRAwDgYDVQQDEwdjYTNjcmwxMDKgMKAuhixodHRwOi8vbGRhcC5iamNhLm9yZy5jbi9jcmwvcHRjYS9jYTNjcmwxLmNybDAJBgNVHRMEAjAAMBEGCWCGSAGG+EIBAQQEAwIA/zAdBgUqVgsHAQQUU0YxMTAxMDIxOTg4MTExMTMwMTgwHQYFKlYLBwgEFFNGMTEwMTAyMTk4ODExMTEzMDE4MCAGCGCGSAGG+EQCBBRTRjExMDEwMjE5ODgxMTExMzAxODAbBggqVoZIAYEwAQQPOTk5MDAwMTAwMDAzNTI0MCUGCiqBHIbvMgIBBAEEFzFDQFNGMTEwMTAyMTk4ODExMTEzMDE4MCoGC2CGSAFlAwIBMAkKBBtodHRwOi8vYmpjYS5vcmcuY24vYmpjYS5jcnQwDwYFKlYVAQEEBjEwMDAwMDCB5wYDVR0gBIHfMIHcMDUGCSqBHAHFOIEVATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmJqY2Eub3JnLmNuL2NwczA1BgkqgRwBxTiBFQIwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5iamNhLm9yZy5jbi9jcHMwNQYJKoEcAcU4gRUDMCgwJgYIKwYBBQUHAgEWGmh0dHA6Ly93d3cuYmpjYS5vcmcuY24vY3BzMDUGCSqBHAHFOIEVBDAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmJqY2Eub3JnLmNuL2NwczANBgkqhkiG9w0BAQUFAAOCAQEAWga6fjJaruXfsEmgwrXcmSJ1N9ofrjfW9JNdsZbnQCKr3NDXhrwwz9gmYUIcD1vZ9rgSm+eNWVIOUJpriQReQURUUMcF3fe4a+xlPRYZKlUmZhXDIgzjuAnVr2f5iMqmQnRMaTN82ogDLzqpKbqL4XdFuxIqF+Win3A/zYHAyXDZXIkJVzuL6siAAGAJqyf+KmO4IxOrowg7SRjxaEHG3HXraRPb5mh5hmsjOCUdmt3OlvjWInk1blIob/rzn74GgZvPz7QxeyvEPeL5332VSNSd9n5/bae9Em3RvSbADyTdXoVME3qWR26qRTY4/GGZ8YFjqwfcug6ET1W4XRbQcg==";
+  static String pri = "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAN7viDBQ0WlUDEtc2TSzS365bnb4SKhNpRCNKWqql/O0KA5WzMaHImXwoKbGT8/lQJB8IUG/AaUuPbAjL7KlJG1wdGJNBXbszbp61No+f+cZElN7hxXqXZNPD+dMmxiYQ0w3duFruUo/1WsNpXvjB6ZjFDYPYMAQmOau2UdgZmTfAgMBAAECgYAawDNfWNNICEXRZTrLEBinBCk1LWXKjEaaTdYCbqX9IEkOL2wzBlQiV1Vvraw2DhRJQhvbf8f6wim00QQQM7DDF7yfM126xVBlXpPsTtf9pNyIKLzulqr4pLqA/yQe2wt0QORBrXo2qWHC1WM1m/9oxCpsq44WVuWVHJj9YWCngQJBAPJkMKqM+bIkdxCydrcR2T45v7Ia8UpduKAzxePThvaby0FInHwNap4105HYD7oRSPn3BULx7ehT/zJlmHMmlFkCQQDrc7YxSORCXvRHMeukdTMyzLHTJybaBiB8wWFrvPThpOwdv8O1NYE9WFuc8L44bLRG5Ok/MQm5+xKlZpj5Svv3AkA2itr0lbJeJpxwMmhKO4bx3JbJIgznmf1Ad0XxRRjahyYOc6Naur4iCaSo7cBkMx2DudUCQmQxYi1LjtbmGmlJAkEAq1SLCjf5aVaBOOFZkFV8SQXsjDMcMWBt+XoacvSP2TZSXp9xQQZLIiGOoJgKQzLOyBvAoqwDYOMTQWpz/EuVJwJAfok5acMTOmw4ouyr0ezVm5CYgt0a2Cl8y0khFw97y5n/umJcza8b/1IUVQQAxY6X5gWJRNSt8lyv165qe0bwrg==";
+  static String encData = "MIIDuwIhAOHHjmS/RTVh/XBuHSFMbtlUXn2HB69DHi3vo5wubuKLAiAKAcrNVdjYoIBsEFgp0z0+Uukdu4tHoIraBocr9nE3AQQgLlpeCyd/CWStmzZ6YY8pGprxkr4gFzW4gRYsj7zC+H4EggNQGIWCIMai1zUKrbtXWEwoE6FxBO6QgKsdvK+5gOI5BUmug3BbI8M2ariqQx34etHQ1mHJfbQ4C6yvAVneDH6iorAdd7tnYdb8O4XAhZZnOLZGULPbEaDRA7FgyVcmj6XysE3jijhqyXXwU7sgvbEH9lZKRH1ftvdWZuTBPjCwupIP3TPNzMph/v6bM/pibydyWxxKgJDWxiHytv64LEdVLAg4I1jtScKkBCvPpVy1MsDa+cuLYy9ugjduEgH3lAkjiuwbWMxQTbq/YPqcc7G0FJvZdCCMMb0Iw+NQscKuHd691A/FSlXhVOg7lwyxGNtHyTWSUdux1u3Ya6/GmaTq6hN6VSGGZE6XmXhXuGtwsMoZj8FEjCkO04HwWxyBvgVUvoDb2aLP2czQxrzCGnMzTneSIWX9j/Ti6qHwLSp90MBXtdm4wW5fXeFJ0bFcEBiwGZSuxfZvu4aO7zFpzU4/2PxBSrghEcdLtHSkgA9MENvdJnoPlarCT0varztW6xIuytXe6ZZ+Uiop5ys8JcuHfLXQeSj7gg8X0uYfXwslrsB1SdT5cQ0JQ2IcS1995NV4LAuxPcSD+94ijfIlwitLGwxYhpfG2kCpTNEPESSBfZFxrPjYEezFrwxOF47okvVAQBQPaCsOSr+xUENm7o6NIWJ6QVsFMOHwpWHADmpRkzjUi0itZSkhMDCYvJLV3dmaxch6eeRHWvgw82TmYKLkpfeTnJ6osO7ovalaY8TMfoMLi+a0m9CMSNaC71WhSeko73Z47A3E7/GKe/zJMhm00Uio+iWmOtqB1AUcwWuF/wHzm4L99KXa2/opA4KJ6aDj/fRjdOKAtYfGFJxcNgIi650p63NBftkWEaqAcXfl+BgoRxquGI7tL6RCMrvqjMsHaA4lPXm16HxWBE1Ab3/utHxJRSz4LV38Xz5hcvxX9VlaWqLhJFqXZQ3WrlAlJcfuLjzr73rGq8/K2LPZKoFBN32so64pyXClwQp5e4UsId7Ks8075QkE7ghJiqvSpHXKox2fXJ0k61k503ScXRUcRv1Dfdb5jxoZOkesOAku9OWL/aLBm/qRgu4Pd7XJgNuvt/1fXpd1BhsrhlFgAn5GHk5l08Iwg0t6pgkMqXLAUG4=";
+
+  public static void main(String[] args) throws PkiException {
+  }
+
+  @Test
+  public void encDecByCert() throws PkiException {
+    String cert = "MIIEOjCCA+CgAwIBAgIKGhAAAAAAAMjh2jAKBggqgRzPVQGDdTBEMQswCQYDVQQGEwJDTjENMAsGA1UECgwEQkpDQTENMAsGA1UECwwEQkpDQTEXMBUGA1UEAwwOQmVpamluZyBTTTIgQ0EwHhcNMTgwOTI3MTYwMDAwWhcNMjgwOTI4MTU1OTU5WjCBjzEMMAoGA1UEKQwD5pegMRswGQYDVQQDDBLorr7lpIfpu5jorqTor4HkuaYxDTALBgNVBAsMBERTVlMxDTALBgNVBAoMBEJKQ0ExEjAQBgNVBAoMCUJKQ0FDbG91ZDERMA8GA1UEBwwIIEJlaUppbmcxEDAOBgNVBAgMB0JlaUppbmcxCzAJBgNVBAYMAkNOMFkwEwYHKoZIzj0CAQYIKoEcz1UBgi0DQgAEWTFYOq7+c62Svtx7mUWXHlLfZI3wYUpJu74qmDiLmjjkUHNgHXX2+C83tRHe+To4xuJOqDDQZ8E3YDo4WB5ODqOCAmwwggJoMB8GA1UdIwQYMBaAFB/mz9SPxSIql0opihXnFsmSNMS2MB0GA1UdDgQWBBSUi9cO1Sn5VfqRCAuQj1YBFmblPTALBgNVHQ8EBAMCBsAwgZ0GA1UdHwSBlTCBkjBgoF6gXKRaMFgxCzAJBgNVBAYTAkNOMQ0wCwYDVQQKDARCSkNBMQ0wCwYDVQQLDARCSkNBMRcwFQYDVQQDDA5CZWlqaW5nIFNNMiBDQTESMBAGA1UEAxMJY2EyMWNybDY3MC6gLKAqhihodHRwOi8vY3JsLmJqY2Eub3JnLmNuL2NybC9jYTIxY3JsNjcuY3JsMBUGCiqBHIbvMgIBAQEEBwwFSkrml6AwYAYIKwYBBQUHAQEEVDBSMCMGCCsGAQUFBzABhhdPQ1NQOi8vb2NzcC5iamNhLm9yZy5jbjArBggrBgEFBQcwAoYfaHR0cDovL2NybC5iamNhLm9yZy5jbi9jYWlzc3VlcjBABgNVHSAEOTA3MDUGCSqBHIbvMgICATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmJqY2Eub3JnLmNuL2NwczARBglghkgBhvhCAQEEBAMCAP8wEwYKKoEchu8yAgEBCAQFDAPml6AwFQYKKoEchu8yAgECAgQHDAVKSuaXoDAfBgoqgRyG7zICAQEOBBEMDzEwMjAwMDAxMjE3NDY5OTAVBgoqgRyG7zICAQEEBAcMBUpK5pegMB8GCiqBHIbvMgIBARcEEQwPNTdAMjE1MDA5Skow5pegMBEGCCqBHNAUBAEEBAUMA+aXoDATBgoqgRyG7zICAQEeBAUMAzY1NDAKBggqgRzPVQGDdQNIADBFAiAkdOgaCGHLB23VMKtIKTwzxi+vBx+jBeJcMFa8e+8qsQIhAOkfylt0XzhYKiiErljQChiwYnM8TIOEeCkjnC0lFFQk";
+    String pri = "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCzXFxgQCj7Kuh0Gb8TFNqs3sFjXSpz5Lyv2VFi"
+        + "NTQrdGu8rEjovhRYHerK+BSjl0bmsvu6yYK0Rzb9vRu0+qESg8yeV0idSqlEdtut6Q/H4egN5+aui9bNY4jP95aQsI/bcTS87tXpeyV02l3sI7mjZ25J7CS9NLcTbI3EznJoFIRFZUjYMcO2b5Z5EPWnqZ5tX16GfkAQJ7WAgEzIUAdS02GXinaO0ofh0+Qxk6tzn/EREL4rQdykWgjd/v2MXX+2B/OMP4ZsbevQQcyk4"
+        + "Z7UqVCrUz3Oj769b5gy4pPpYoHmh/6ZAUUOSW1ftLaWj4Fj4v9XaFMusEko5SYJOkyDAgMBAAECggEAWXXH3Xoi9qQALWhqFWphZ7fzXUwq0INWWZ9bKFDBJKt80S5dbzjfjNPfOD1kjfP2OTsss42u05xxoT2hhDM+A64ZcSC35zxGEQ/3olaMuHXE+KqiNI0rJmZu5svnHWPzXNCqLVIy/7GcjRwdnJp1DTuZluVhrb"
+        + "2NUvLiAze1eJNs8/xML1BxvT4qsOgxC/cYJkj/TU12umTu8xgqRmU/pfcZ7sy6tLBKRhQuLHj+tJr9mlNozXdwkJmcQGqmWFQU7A3Ren7TvxkCTWxaIV78RxY/XSN0Uhzb2Sm7Hpmx6nWZDRXlRkBEbODPzBX4iFyCLFvkiauMcLV+bzm8caLAAQKBgQDkbpLPkup9mP2s4wBgpy5dtnFJG3jM3T4yS+o9BLQ1XqMhuE0"
+        + "53dLRMIviNKrR+hfq6ghXic2mspkP5Gs33vQE1JltipeoqyxNKdFmO0SlEniv/eyFTb0uThBkV2SsLfLdtoCuBaNaGTDZDivqNqApxUk0JfYQlpx+2FR6nyJ6AQKBgQDJAbrKIJcV4+4nXogbzGpt+HS+aAoOA/TXmUbDdszEdVN2FVG2ekeFpeP69zbz7t33czX83ZlREqErZQkhgNjF8BIxPAu/sp72MEk+1W4hLq9j"
+        + "ABTCW9kYmG20WyQOi2KVASwi3oHMB3mXmcpsJyHCD2Qn4D9WjAhk577Q6snegwKBgE6GmF9U8NkmO6YwDtQrBGxgqEbqc7dxIs1lfWtmb5CdLNUNpzaKQ8t3tc6YLlSqdYhi1WVKUPDKGoX1DsqRES+L6gZXC1WHKl6ITpynKSzZ0bUmRCV7GNqPKWFlDY2G6iM/drLb61CwsjMbhQspphtV35lWp2UCcV/FfBz/EXoBA"
+        + "oGBAIZhd6VGIHvsA/2h/1DGWqjmn/XjzEUOdBPnTx3CQKde4Mti+VwLZ+F7xGy19bEjEpYqGf/Rjnxa/hDq3S3e3A2IsEDmKdyg6BEiuvUc7yGT+oEvPrGpgfwle8JF5Fcs7F09iWpOY2wp2yp1EJU5nCIG9CiMjQupVrtPC4zUSt1NAoGBAKXDy/J6hXtMVJoedW4fHP6p9dGewL0DGEg9SafZ6PDhqYkSc/ChuJ2dqe"
+        + "bnXo04zPitryP8DAUM95/GA2DdycuUpr2TwVJEnpu95Twz8HE4TBm9sxiFmTDYpdhdqApV2Ik7sMYAjDpUw6jLJB/3u0F1V3qGf/IhA/P/RsgmH/j5";
+
+
+    String encData = "MIIBwwYJKoZIhvcNAQcDoIIBtDCCAbACAQAxggF0MIIBcAIBADBYMEIxCzAJBgNVBAYMAkNOMQ0wCwYDVQQKDARCSkNBMQ0wCwYDVQQLDARCSkNBMRUwEwYDVQQDDAxMT0NBTFJTQTIwNDgCEiABMZVxO4x3Ww7w0EAmNItE7zANBgkqhkiG9w0BAQEFAASCAQAgmhKo7WXweBQ5cK3dP00XB0r3xy77zG8vrR2//MQq2l9aPaqRq4PQIalsgzwh4bJxDqY/HioO60uyyGbje2rAYss2yyphdB+cHLQEp0uEZCLXLiD0zoL8oo9iWcNK3aQwtIwZshFocE0hLRFOxk8MfbY0ICpdwefPjZaZgl2FLmfdlsIlkdbDJnYi1DcK7GGys5gdcPHFRAggoLQahq+cSYZkO79z2RANg2NR+D/t5XIAg4N0Oc/Qw3boGdaKjDV7Tr/zXEPpvi3que812Svs8c8vgyaeJqQbTRFyCrY5rKC9WgUJkhncn4KS+GdnJ3Vb7DED+fyRrDRo9fy6sZ+lMDMGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIii+zZEvo996AEAPBnBAmNlyRmpICgoelZA0=";
+    AlgPolicy encAlg = new AlgPolicy(AlgPolicy.RSA_ENC);
+
+    BjcaKey bjcaKey = new BjcaKey(BjcaKey.RSA_PRV_KEY, Base64.decode(pri));
+    GaiaProvider provider = GaiaUtils.instance();
+
+    BjcaCert bjcaCert = CertificateUtil.createCert(Base64.decode(cert));
+    BjcaKey publicKey = bjcaCert.getPublicKey();
+    System.out.println(publicKey);
+//    byte[] encrypt = provider
+//        .encrypt(encAlg, bjcaCert.getPublicKey(), "123asdf".getBytes());
+//    System.out.println("密文为:" + Base64.toBase64String(encrypt));
+
+    byte[] decrypt = provider.decrypt(encAlg, bjcaKey, Base64.decode(encData));
+    System.out.println("解密: "+new String(decrypt));
+  }
+
+
+  public static void rsaEcbEnc() throws PkiException {
+
+    GaiaProvider provider = GaiaUtils.instance();
+    BjcaKeyPair bjcaKeyPair = provider.genKeyPair(new AlgPolicy(AlgPolicy.RSA), 1024);
+    byte[] data = (
+        "asfasdfasdfasdfasdferqwefasdfasfasdfasdfasdfasdferqwefasdfaasfasdfasdfasdfasdferqwefasdfaasfasdf"
+            + "asdfasdfasdferqwefasdfaasfasdfasdfasdfasdferqwefasdfaa").getBytes();
+
+    byte[] encrypt = provider
+        .encrypt(new AlgPolicy(AlgPolicy.RSA_ENC), bjcaKeyPair.getPublicKey(), data);
+  }
+
+  public static void gaiaEncDec() throws PkiException {
+    GaiaProvider provider = GaiaUtils.instance();
+    BjcaKey bjcaKeyPub = new BjcaKey(BjcaKey.SM2_PUB_KEY, Base64.decode(
+        "BOKwPDJgWmqSIwdoXVUKwNkVMtJyOUNitq9AFxzFZyqv7x+Iw1zcUWJq9WAGTaVooSgSGcudaqSpf1bcYuBGxlE="));
+    BjcaKey bjcaKeyPri = new BjcaKey(BjcaKey.SM2_PRV_KEY,
+        Base64.decode("a1fNcuBuATw7AMOkFWrPhEmmQCS1SjE8WeC1P3U0kFc="));
+    byte[] data = "1234567812345678".getBytes();
+    byte[] encrypt = provider.encrypt(new AlgPolicy(AlgPolicy.SM2), bjcaKeyPub, data);
+
+  }
+
+
+  public static void aesEncDEC() throws PkiException {
+    GaiaProvider provider = GaiaUtils.instance();
+//    BjcaKey bjcaKey = provider.genSymmKey(new AlgPolicy(AlgPolicy.AES_KEY), 128);
+
+    BjcaKey bjcaKey = new BjcaKey(BjcaKey.AES_KEY, Base64.decode("nlORg2UxMOYR8OKDw01Sdw=="));
+    AlgPolicy encDecAlg = new AlgPolicy(AlgPolicy.AES_ECB_PKCS5PADDING);
+    byte[] encrypt = provider
+        .encrypt(encDecAlg, bjcaKey, "杨程".getBytes());
+    byte[] decrypt = provider.decrypt(encDecAlg, bjcaKey, encrypt);
+    System.out.println(new String(decrypt));
+
+  }
+
+
+}
